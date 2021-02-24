@@ -14,10 +14,6 @@ find a (recent)[n19](https://github.com/ab77/netflix-proxy#footnotes) Debian or 
 
 See the [**Wiki**](https://github.com/ab77/netflix-proxy/wiki) page(s) for some common troubleshooting ideas.
 
-... or subscribe to [Unzoner](http://unzoner.com) VPN service to un-block:
-
-<a href="https://dashboard.unzoner.com/sub"><img align="left" src="https://api.unzoner.com/api/v1.0/countries/available/flags.png"></a><br><br>
-
 # about
 `netflix-proxy` is a smart DNS proxy to stream `Netflix`, `Hulu`[[n2]](#footnotes), `HBO Now` and others out of region. It is deployed using Docker containers and uses `dnsmasq`[[n18]](#footnotes) and `sniproxy`[[n1]](#footnotes) to provide SmartDNS services. It works for some blocked sites, such as [PornHub](http://www.pornhub.com/) and [YouTube](https://en.wikipedia.org/wiki/Blocking_of_YouTube_videos_in_Germany). [Subscribe](http://eepurl.com/cb4rUv) to the mailing list and be notified of new features, updates, etc.
 
@@ -33,6 +29,12 @@ The following are supported out of the box, however adding additional services i
 * blinkbox
 * BBC iPlayer[[n5]](#footnotes)
 * NBC Sports and potentially many [more](https://github.com/ab77/netflix-proxy/blob/master/proxy-domains.txt)
+
+To add additional services, see the [add_site](scripts/add_site.sh) script. This script takes a domain as an arugment and will add it to dnsmasq.conf before restarting the dnsmasq container.
+
+e.g
+
+    ./scripts/add_site.sh nhl.com
 
 # license
 This project is **free**, covered by the [MIT License](https://github.com/ab77/netflix-proxy/blob/master/LICENSE.md). It is provided without any warranty and can be used for any purpose, including private and commercial. However, if you are planning to use it for commercial purposes (i.e make money off it), please do not expect free support, as it would be unfair. A commercial support model can always be negotiated, if required. Please [contact](https://www.upwork.com/freelancers/~016da2a2dc195af5ec) me if this is something that interests you.
