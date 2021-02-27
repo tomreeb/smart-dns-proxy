@@ -76,3 +76,5 @@ sling.com
 movetv.com
 optus.com.au
 optusnet.com.au
+nhl.com
+nhl.tv
