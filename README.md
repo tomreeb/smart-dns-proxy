@@ -383,11 +383,11 @@ This solution uses IPv6 downstream from the proxy to unblock IPv6 enabled provid
 If you have any idea, feel free to fork it and submit your changes back to me.
 
 ### donate
-If you find this useful, please feel free to make a small donation with [PayPal](https://www.paypal.me/belodetech) or Bitcoin.
+If you find this useful, please feel free to make a small donation with [PayPal](https://www.paypal.me/tomreeb) or Bitcoin.
 
 | Paypal | Bitcoin |
 | ------ | ------- |
-|[![](https://www.paypalobjects.com/en_GB/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5UUCDR8YXWERQ)|![1GUrKgkaCkdsrCzb4pq3bJwkmjTVv9X7eG](https://raw.githubusercontent.com/tomreeb/smart-dns-proxy/master/static/bitcoin_qr.png)1GUrKgkaCkdsrCzb4pq3bJwkmjTVv9X7eG|
+|[![](https://www.paypalobjects.com/en_GB/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=EJHRS4KH8LZZC)|![32BJ4ZYWAbuVuDSBGwRQaNH4jr4Z31rpW3](https://raw.githubusercontent.com/tomreeb/smart-dns-proxy/master/static/bitcoin_qr.png)32BJ4ZYWAbuVuDSBGwRQaNH4jr4Z31rpW3|
 
 #### footnotes
 1. [SNIProxy](https://github.com/dlundquist/sniproxy) by Dustin Lundquist `dustin@null-ptr.net`; this solution will only on devices supporting Server Name Indication (SNI)[[n7]](#footnotes) and only if they use DNS to resolve names.
@@ -409,7 +409,3 @@ If you find this useful, please feel free to make a small donation with [PayPal]
 17. GFW is probably re-writing DNS responses for certain very sensitive domains (i.e. facebook.com), so unfortunately a simple proxy solution like this won't work. VPN technology is required to bypass, try `black.box` [unzoner](http://unzoner.com).
 18. [dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html) by `simon@thekelleys.org.uk`.
 19. Python3 (latest) release won't work on Ubuntu16/Debian9, upgrade to a more recent distribution (Python2 EOL Jan/2020).
-
-<hr>
-<p align="center">&copy; 2016-2019 <a href="http://ab77.github.io/">ab1</a></p>
-<p align="center"><a href="http://anton.belodedenko.me/"><img src="https://avatars2.githubusercontent.com/u/2033996?v=3&s=50"></a></p>
